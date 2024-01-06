@@ -1,0 +1,17 @@
+.div-hero-heading {
+    text-align: center;
+    margin-inline: auto;
+    margin: 0 159.600px 40px 159.600px;
+    padding: 0 24px 40px 24px;
+
+}
+
+h1 {
+    font-size: 3.7em;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.p-hero-heading {
+    font-size: 1.1em;
+}

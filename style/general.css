@@ -74,3 +74,9 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #eafaf1;
+    font-family: 'Work Sans';
+    color: #080c16;
+}
