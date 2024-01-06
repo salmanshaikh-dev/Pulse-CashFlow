@@ -1,3 +1,75 @@
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-regular-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-medium-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-light-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-thin-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-thin-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-extralight-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-extralight-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-semibold-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-semibold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-bold-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-extrabold-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-extrabold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    src: local('Work Sans', worksans),
+        url('/fonts/worksans-black-webfont.woff2') format('woff2'),
+        url('/fonts/worksans-black-webfont.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
