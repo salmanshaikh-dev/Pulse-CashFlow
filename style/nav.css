@@ -21,11 +21,11 @@ a {
     cursor: pointer;
 }
 
-li:hover {
+.li-nav:hover {
     color: #080c16;
 }
 
-li {
+.li-nav {
     font-weight: 700;
     color: #00ad6a;
 }
