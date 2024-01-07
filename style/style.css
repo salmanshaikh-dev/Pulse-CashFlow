@@ -8,12 +8,14 @@
 
 h1 {
     font-size: 3.7em;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     line-height: 1;
+
 }
 
 .p-hero-heading {
     font-size: 1.1em;
+   line-height: 1.5;
 }
 
 .container-plans {
@@ -26,9 +28,10 @@ h1 {
 .left-div-plans {
     display: flex;
     flex-direction: column;
-    max-width: 280.663px;
-    padding: 0 32px;
+    max-width: 275px;
+    padding: 0 56px 0 24px;
     gap: 5px;
+    padding-top: 120px;
    
 }
 
@@ -37,7 +40,9 @@ h3 {
     font-size: 1.3em;
     margin-bottom: 16px;
 }
-
+.ul-plans-left {
+    padding-left: 15px;
+}
 .li-left-plans {
     color: #080c16;
     line-height: 1.5em;
@@ -56,17 +61,19 @@ h3 {
 
 .middle-div-plans {
     background-color: #fcfcfc;
-    border: 1px solid #00ad6a;
+    border: 1.55px solid #00ad6a;
     max-width: 380px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 24px;
     
 }
-
+.recommended {
+    width: 100%;
+}
 h5 {
     text-align: center;
     color: #fcfcfc;
@@ -75,7 +82,6 @@ h5 {
     font-size: .8em;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 370px;
 }
 
 h2 {
@@ -83,6 +89,7 @@ h2 {
     text-align: center;
     color: #00ad6a;
     margin-top: 40px;
+    line-height: 1;
 }
 
 .p-middle-div-perMonth {
@@ -98,13 +105,9 @@ h2 {
     margin-bottom: 32px;
     padding: 8px 32px 12px 32px ;
     border: none;
-    color: #062c27;
+    color: #464951;
     font-weight: 800;
-    font-size: 1.2em;
-}
-
-.btn-plan-signupnow {
-    /* scale the button */
+    font-size: 1.19em;
 }
 
 h6 {
@@ -117,8 +120,7 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 30px;
     list-style: check;
     line-height: 1.6;
    
@@ -143,4 +145,81 @@ h6 {
     left: -1.2em; /* Adjust the positioning of the check mark */
     font-weight: 800;
   }
+
+.right-div-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 393.062px;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    border: 1.5px solid #d6dae5;
+}
+
+.right-div-plans-top {
+    border: 1px solid #d6dae5;
+    background-color: #f2f3f3;
+    padding: 20px 32px 24px 32px;
+    color: #464951;
+    font-size: .9em;
+    text-align: center;
+}
   
+h4 {
+    color: #00ad6a;
+    font-size: 2.4em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1;
+}
+
+.p-rightDiv-price {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(131, 133, 138);
+    margin: 8px 0 24px 0;
+}
+
+.btn-plan-trypremium {
+    background-color: #1fe374;
+    min-width: 124.900px;
+    margin-bottom: 32px;
+    padding: 8px 32px 12px 32px ;
+    border: none;
+    color: #464951;
+    font-weight: 800;
+    font-size: 1.19em;
+}
+
+.p-rightDiv-getItAll {
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+
+.ul-plans-right {
+    padding: 0 25px;
+    line-height: 1.5;
+}
+
+.ul-plan-right {
+    list-style: none;
+    padding-left: 25px;
+  }
+  
+  .li-right-plan {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+  .li-right-plan::before {
+    content: '\2713'; /* Unicode character for a check mark */
+    color: #00ad6a;
+    font-size: .9em; /* Adjust the size if needed */
+    margin-right: 0.8em; /* Adjust the spacing between the check mark and text if needed */
+    position: absolute;
+    left: -1.2em; /* Adjust the positioning of the check mark */
+    font-weight: 800;
+  }
