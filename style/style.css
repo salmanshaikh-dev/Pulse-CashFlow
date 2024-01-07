@@ -215,11 +215,11 @@ h4 {
   }
   
   .li-right-plan::before {
-    content: '\2713'; /* Unicode character for a check mark */
+    content: '\2713'; 
     color: #00ad6a;
-    font-size: .9em; /* Adjust the size if needed */
-    margin-right: 0.8em; /* Adjust the spacing between the check mark and text if needed */
+    font-size: .9em; 
+    margin-right: 0.8em; 
     position: absolute;
-    left: -1.2em; /* Adjust the positioning of the check mark */
+    left: -1.2em; 
     font-weight: 800;
   }
