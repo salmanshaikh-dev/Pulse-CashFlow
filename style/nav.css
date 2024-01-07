@@ -4,7 +4,7 @@ nav {
     margin-inline: auto;
     align-items: center;
     justify-content: space-between;
-    margin: 0 159.600px;
+    margin: 0 350px 0 350px;
 }
 
 .ul-nav {
@@ -39,7 +39,7 @@ a {
     padding: 4px 16px;
     font-size: 1em;
     font-family: 'Work Sans', sans-serif;
-    border: 1.600px solid #00ad6a;
+    border: 2px solid #00ad6a;
     color: #00ad6a;
     background-color: #eafaf1;
     height: 35.2px;
