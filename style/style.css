@@ -109,10 +109,13 @@ h2 {
     font-weight: 800;
     font-size: 1.19em;
 }
-
+.btn-plan-signupnow:hover{
+    color: #062c27;
+}
 h6 {
     font-size: .8em;
     margin-bottom: 20px;
+    color: #464951;
 }
 
 .ul-plans-middle {
@@ -158,12 +161,14 @@ h6 {
 }
 
 .right-div-plans-top {
-    border: 1px solid #d6dae5;
+    border-bottom: 1px solid #d6dae5;
     background-color: #f2f3f3;
     padding: 20px 32px 24px 32px;
     color: #464951;
     font-size: .9em;
     text-align: center;
+   
+
 }
   
 h4 {
@@ -193,14 +198,20 @@ h4 {
     font-size: 1.19em;
 }
 
+.btn-plan-trypremium:hover{
+    color: #062c27;
+}
 .p-rightDiv-getItAll {
     font-size: .8em;
     margin-bottom: 20px;
+    color: #464951;
 }
-
+h6:hover{
+    color: #080c16;
+}
 .ul-plans-right {
     padding: 0 25px;
-    line-height: 1.5;
+
 }
 
 .ul-plan-right {
@@ -212,6 +223,7 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
     position: relative;
+    line-height: 1.5;
   }
   
   .li-right-plan::before {

@@ -81,3 +81,11 @@ body {
     color: #080c16;
     padding-bottom: 100px;
 }
+
+button {
+    cursor: pointer;
+}
+
+.right-div-plans:hover, .middle-div-plans:hover {
+    cursor: pointer;
+}
