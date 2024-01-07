@@ -26,9 +26,10 @@ h1 {
 .left-div-plans {
     display: flex;
     flex-direction: column;
-    max-width: 282.663px;
-    padding: 0 24px;
-
+    max-width: 280.663px;
+    padding: 0 32px;
+    gap: 5px;
+   
 }
 
 h3 {
@@ -37,3 +38,109 @@ h3 {
     margin-bottom: 16px;
 }
 
+.li-left-plans {
+    color: #080c16;
+    line-height: 1.5em;
+}
+
+.p-div-left-plans {
+    margin-top: 25px;
+    line-height: 1.3em;
+}
+
+.a-div-left-plan {
+    text-decoration: underline;
+    color: #080c16;
+    line-height: 1.9em;
+}
+
+.middle-div-plans {
+    background-color: #fcfcfc;
+    border: 1px solid #00ad6a;
+    max-width: 380px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+h5 {
+    text-align: center;
+    color: #fcfcfc;
+    background-color: #00ad6a;
+    padding: 5px;
+    font-size: .8em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 370px;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #00ad6a;
+    margin-top: 40px;
+}
+
+.p-middle-div-perMonth {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(131, 133, 138);
+    margin: 8px 0 24px 0;
+}
+
+.btn-plan-signupnow {
+    background-color: #1fe374;
+    min-width: 124.900px;
+    margin-bottom: 32px;
+    padding: 8px 32px 12px 32px ;
+    border: none;
+    color: #062c27;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.btn-plan-signupnow {
+    /* scale the button */
+}
+
+h6 {
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+
+.ul-plans-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
+    list-style: check;
+    line-height: 1.6;
+   
+}
+
+.ul-plans-middle {
+    list-style: none;
+  }
+  
+  .li-middle-plans {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+  .li-middle-plans::before {
+    content: '\2713'; /* Unicode character for a check mark */
+    color: #00ad6a;
+    font-size: .9em; /* Adjust the size if needed */
+    margin-right: 0.8em; /* Adjust the spacing between the check mark and text if needed */
+    position: absolute;
+    left: -1.2em; /* Adjust the positioning of the check mark */
+    font-weight: 800;
+  }
+  
