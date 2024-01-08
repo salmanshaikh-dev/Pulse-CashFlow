@@ -4,17 +4,18 @@
     margin: 0 159.600px 40px 159.600px;
     padding: 0 24px 40px 24px;
 
+
 }
 
 h1 {
     font-size: 3.7em;
     margin-bottom: 15px;
     line-height: 1;
-
+    font-weight: 700;
 }
 
 .p-hero-heading {
-    font-size: 1.1em;
+    font-size: 1.12em;
    line-height: 1.5;
 }
 
@@ -23,15 +24,17 @@ h1 {
     margin: 0 159.600px;
     margin-inline: auto;
     max-width: 1184px;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-div-plans {
     display: flex;
     flex-direction: column;
-    max-width: 275px;
+    max-width: 280px;
     padding: 0 56px 0 24px;
     gap: 5px;
-    padding-top: 120px;
+    padding-top: 10px;
    
 }
 
@@ -49,8 +52,9 @@ h3 {
 }
 
 .p-div-left-plans {
-    margin-top: 25px;
+    margin-top: 10px;
     line-height: 1.3em;
+    
 }
 
 .a-div-left-plan {
@@ -60,15 +64,15 @@ h3 {
 }
 
 .middle-div-plans {
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     border: 1.55px solid #00ad6a;
-    max-width: 380px;
+    max-width: 400px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
     
 }
 .recommended {
@@ -158,6 +162,9 @@ h6 {
     background-color: #ffffff;
     margin-bottom: 60px;
     border: 1.5px solid #d6dae5;
+    padding-bottom: 40px;
+
+    
 }
 
 .right-div-plans-top {
@@ -224,6 +231,7 @@ h6:hover{
     padding-bottom: 5px;
     position: relative;
     line-height: 1.5;
+    
   }
   
   .li-right-plan::before {
@@ -235,3 +243,26 @@ h6:hover{
     left: -1.2em; 
     font-weight: 800;
   }
+
+  .testimony-article {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 96px 24px;
+    margin-inline: auto;
+  }
+
+ .p-testimony-pricing {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.p-subvertMarketing {
+    color: #00ad6a;
+    font-size: .82em;
+    font-weight: 600;
+}
