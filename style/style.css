@@ -266,3 +266,71 @@ h6:hover{
     font-size: .82em;
     font-weight: 600;
 }
+
+.faq-section {
+    background-color: #fcfcfc;
+    margin-inline: auto;
+    display: grid;
+    grid-template-areas: 
+    'faq .'
+    'one two'
+    'three four'
+    'five six';
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1.5px solid #d6dae5;
+    column-gap: 40px;
+    row-gap: 20px;
+
+}
+.h1-faq {
+    font-size: 3em;
+    margin: 0;
+}
+.div-faq {
+    width: 560px;
+}
+.h4-faq-section {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #080c16;
+    text-align: start;
+    line-height: 1.1;
+    
+   
+}
+
+.p-faq-section {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.div-faq-main {
+    grid-area: faq;
+}
+
+.q-1 {
+    grid-area: one;
+    
+}
+.q-2 {
+    grid-area: two;
+}
+.q-3 {
+    grid-area: three;
+}
+.q-4 {
+    grid-area: four;
+}
+.q-5 {
+    grid-area: five;
+    
+}
+
+.q-6 {
+    grid-area: six;
+}
+.p-faq-section-second {
+    margin-top: 30px;
+}

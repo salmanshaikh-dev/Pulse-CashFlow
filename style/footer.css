@@ -1,0 +1,33 @@
+footer {
+    background-color: #080c16;
+    min-height: 430px;
+    margin-inline: auto;
+    display: flex;
+    
+    
+
+}
+
+.left-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 40px;
+    padding-left: 200px;
+}
+
+.img-footer-logo {
+    width: 150px;
+}
+
+.btn-footer {
+    width: 300px;
+    background-color: #1fe374;
+    margin-bottom: 100px;
+}
+
+.p-footer-left-aside {
+    color: #4b4f55;
+    width: 400px;
+}
