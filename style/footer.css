@@ -1,33 +1,96 @@
 footer {
     background-color: #080c16;
-    min-height: 430px;
+    /* min-height: 430px; */
     margin-inline: auto;
+    padding-left: 184px;
+    padding-right: 184px;
+}
+
+.div-footer-gap-main {
     display: flex;
-    
-    
+    column-gap: 50px;
 
 }
 
-.left-aside {
+.aside-footer-main {
+    padding: 96px 0;
+}
+
+.div-footer-pulseLogo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    gap: 40px;
-    padding-left: 200px;
+    margin-right: 240px;
+    gap: 55px;
 }
 
 .img-footer-logo {
-    width: 150px;
+    width: 160px;
+
 }
 
 .btn-footer {
-    width: 300px;
-    background-color: #1fe374;
-    margin-bottom: 100px;
+    min-width: 300px;
+    background: rgb(57, 167, 105);
+    background: linear-gradient(90deg, rgba(57, 167, 105, 1) 0%, rgba(31, 227, 116, 1) 78%);
+    padding: 18px 31px;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: Work Sans;
+    border: none;
+    cursor: pointer;
 }
 
-.p-footer-left-aside {
-    color: #4b4f55;
-    width: 400px;
+.btn-footer:hover {
+    box-shadow: -5px 5px #585a61;
+    transition: ease-in-out .15s;
+    transform: translate(box-shadow);
+    transform: translateX(4px);
+    color: #3f3e3e;
+}
+
+.ul-footer {
+    color: #1fe374;
+    list-style: none;
+}
+
+.div-footer-company,
+.div-footer-product,
+.div-footer-resources {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.h5-footer-company {
+    text-align: start;
+}
+
+.li-footer {
+    line-height: 2.5;
+    font-size: 1.110em;
+    
+}
+.li-footer:hover{
+color: #fcfcfc;
+cursor: pointer;
+}
+
+.h5-footer {
+    color: #fcfcfc;
+    background: none;
+    padding: 0;
+    font-size: 1.119em;
+    margin-bottom: 10px;
+}
+
+.div-footer-product {
+    margin-right: 70px;
+}
+
+.p-footer-terms {
+    color: #8a8a8a;
+    font-size: .75em;
+    width: 550px;
+    padding: 12px 24px 12px 0;
+    line-height: 1.5;
 }
