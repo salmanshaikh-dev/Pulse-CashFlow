@@ -1,0 +1,106 @@
+@media screen and (max-width:500px) {
+    .ul-nav {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 12px;
+        background-color: #ffffff;
+        border-bottom: 1px solid rgb(214, 218, 229);
+
+    }
+
+    .div-hero-heading {
+        margin: 0;
+        padding-top: 25px;
+        padding-bottom: 16px;
+        align-items: start;
+        text-align: start;
+
+
+    }
+
+    h1 {
+        text-align: start;
+        font-size: 2.8em;
+
+    }
+
+    .container-plans {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        row-gap: 15px;
+
+    }
+
+    .left-div-plans {
+        margin-bottom: 40px;
+    }
+
+    .testimony-article {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 40px;
+        padding-top: 0;
+        padding-bottom: 50px;
+        width: fit-content;
+    }
+
+    .faq-section {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .div-faq {
+        width: fit-content;
+    }
+
+    
+    .div-footer-gap-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 500px;  
+    }
+
+    .ul-footer {
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    
+.p-footer-terms{
+    width: 400px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+    footer{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div-footer-pulseLogo{
+        margin: 0;
+        
+    }
+
+}
