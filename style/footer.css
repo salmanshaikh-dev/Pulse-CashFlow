@@ -95,3 +95,21 @@ cursor: pointer;
     line-height: 1.5;
 
 }
+
+
+.a-link {
+    color: #8a8a8a;
+    text-decoration: underline;
+}
+
+.a-link:hover {
+    color: rgb(185, 185, 185);
+}
+
+.a-link-creator {
+    color: #9e9e9e;
+}
+
+.a-link-creator:hover {
+color: rgb(207, 207, 207);
+}
