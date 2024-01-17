@@ -6,20 +6,20 @@ footer {
     padding-right: 184px;
 }
 
-.div-footer-gap-main {
+.div-footer-gap-main { 
     display: flex;
     column-gap: 50px;
 
 }
 
 .aside-footer-main {
-    padding: 96px 0;
+    padding: 81px 0;
 }
 
 .div-footer-pulseLogo {
     display: flex;
     flex-direction: column;
-    margin-right: 240px;
+    margin-right: 320px;
     gap: 55px;
 }
 
@@ -29,7 +29,7 @@ footer {
 }
 
 .btn-footer {
-    min-width: 300px;
+    min-width: 305px;
     background: rgb(57, 167, 105);
     background: linear-gradient(90deg, rgba(57, 167, 105, 1) 0%, rgba(31, 227, 116, 1) 78%);
     padding: 18px 31px;
@@ -93,4 +93,5 @@ cursor: pointer;
     width: 550px;
     padding: 12px 24px 12px 0;
     line-height: 1.5;
+
 }
