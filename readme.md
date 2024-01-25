@@ -23,7 +23,7 @@ This is a clone of the [Pulse Cash flow - Pricing page ](https://pulseapp.com/pr
 
 ### Screenshot
 
-![](/Images/Pulse-cashFlow-Preview.png.)
+![](/Images/Pulse-cashFlow-Preview.png)
 
 
 ### Links
