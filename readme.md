@@ -28,8 +28,8 @@ This is a clone of the [Pulse Cash flow - Pricing page ](https://pulseapp.com/pr
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [Add live site URL here](https://salmanshaikh-dev.github.io/Pulse-CashFlow/)
 
 
 ### Built with
